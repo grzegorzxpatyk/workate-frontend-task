@@ -16,6 +16,9 @@ export default function App() {
     }
 
     function nextPhotos() {
+        if (photos.length >= data.length) {
+            return;
+        }
         setPhotos(data.slice(0, quantity));
         setQuantity((prev) => prev + 3);
     }
