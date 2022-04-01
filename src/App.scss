@@ -15,10 +15,16 @@
 }
 
 h1.app-logo {
+    display: block;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(#282c34, #282c3479);
     font-family: $interFontFamily;
     font-weight: 300;
     font-size: 3rem;
-    // text-decoration: underline;
+    padding: 0.6rem;
+    box-sizing: border-box;
 }
 
 a {
@@ -26,6 +32,9 @@ a {
 }
 
 .btn {
+    position: fixed;
+    right: 5vw;
+    bottom: 5vh;
     padding: 0.8rem;
     font-family: $interFontFamily;
     font-weight: 500;
