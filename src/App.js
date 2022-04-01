@@ -13,7 +13,6 @@ export default function App() {
         setData(response);
         setPhotos(response.slice(0, quantity));
         setQuantity(6);
-        // return response;
     }
 
     function nextPhotos() {
@@ -24,8 +23,6 @@ export default function App() {
     useEffect(() => {
         fetchData('https://picsum.photos/v2/list');
         console.log(data);
-        // setPhotos(data.slice(0, 3));
-        // setQuantity(3);
         return () => {
             setPhotos([]);
         };
