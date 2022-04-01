@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/workate-frontend-task/static/css/main.53588e24.css",
+    "main.css": "/workate-frontend-task/static/css/main.7f8d5f20.css",
     "main.js": "/workate-frontend-task/static/js/main.d70dee28.js",
     "static/js/787.c627324a.chunk.js": "/workate-frontend-task/static/js/787.c627324a.chunk.js",
     "index.html": "/workate-frontend-task/index.html",
-    "main.53588e24.css.map": "/workate-frontend-task/static/css/main.53588e24.css.map",
+    "main.7f8d5f20.css.map": "/workate-frontend-task/static/css/main.7f8d5f20.css.map",
     "main.d70dee28.js.map": "/workate-frontend-task/static/js/main.d70dee28.js.map",
     "787.c627324a.chunk.js.map": "/workate-frontend-task/static/js/787.c627324a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53588e24.css",
+    "static/css/main.7f8d5f20.css",
     "static/js/main.d70dee28.js"
   ]
 }
