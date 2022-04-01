@@ -1,0 +1,33 @@
+@import './scss/_variables.scss';
+
+.app {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: $interFontFamily;
+}
+
+h1.app-logo {
+    font-family: $interFontFamily;
+    font-weight: 300;
+    font-size: 3rem;
+    // text-decoration: underline;
+}
+
+a {
+    color: #61dafb;
+}
+
+.btn {
+    padding: 0.8rem;
+    font-family: $interFontFamily;
+    font-weight: 500;
+    font-size: 1rem;
+}
